@@ -1,0 +1,60 @@
+/* Navbar.css */
+.navbar {
+    background-color: #f4f5f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+    padding-left: 2rem; 
+    padding-right: 2rem;
+
+    /* color: #808893; */
+    
+  }
+
+   
+  
+  .logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+     
+  }
+  
+  .devices {
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+  
+
+  .logo svg {
+     padding: 0.5rem;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;  
+    transition: border 0.2s;  
+  }
+  
+   
+  .svg-logo {
+    padding: 0.5rem;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+  }
+  
+  .svg-logo:focus {
+    border-color: #006FFF;
+    outline: none;
+  }
+  
+  .svg-logo:hover {
+    fill: #FF0000; /* Change to the desired color on hover */
+  }
+  
+   
+   
+ 
