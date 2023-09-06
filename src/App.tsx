@@ -9,6 +9,7 @@ const App: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/products" element={<Products />} />  
+        
         <Route path="/single-product" element={<SingleProduct />} />
         <Route index element={<Products />} /> 
         

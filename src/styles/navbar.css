@@ -1,14 +1,14 @@
 /* Navbar.css */
 .navbar {
-    background-color: #f4f5f6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.2rem;
-    padding-left: 2rem; 
-    padding-right: 2rem;
+    background-color: #f4f5f6 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0.2rem !important;
+    padding-left: 2rem !important; 
+    padding-right: 2rem !important;
 
-    /* color: #808893; */
+    color: #808893 !important;
     
   }
 
@@ -38,12 +38,13 @@
   
    
   .svg-logo {
+    
     padding: 0.5rem;
-    height: 27px;
+    height: 45px;
     display: flex;
     align-items: center;
     border: 2px solid transparent;
-    transition: border 0.2s;
+     
   }
   
   .svg-logo:focus {
@@ -51,8 +52,12 @@
     outline: none;
   }
   
+   
+
+
   .svg-logo:hover {
-    fill: #FF0000; /* Change to the desired color on hover */
+    filter: invert(35%) sepia(66%) saturate(5421%) hue-rotate(205deg) brightness(100%) contrast(110%) ;
+     
   }
   
    
